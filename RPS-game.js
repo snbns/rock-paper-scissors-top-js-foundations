@@ -10,6 +10,8 @@ function computerPlay() {
 
 function playRound(playerSelection, computerSelection) {
     let winner;
+    playerSelection = playerSelection.toLowerCase();
+    computerSelection = computerSelection.toLowerCase();
 
     if (playerSelection === computerSelection) {
         winner = "The game is a tie!";

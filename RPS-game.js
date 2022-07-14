@@ -1,6 +1,8 @@
+let randomRPS;
+
 function computerPlay() {
-    const RPS = ['Rock', 'Paper', 'Scissors'];
-    const randomRPS = Math.floor(Math.random() * RPS.length);
+    const RPS = ['rock', 'paper', 'scissors'];
+    randomRPS = (Math.floor(Math.random() * RPS.length));
+    return RPS[randomRPS];
 }
 
-console.log(randomRPS);

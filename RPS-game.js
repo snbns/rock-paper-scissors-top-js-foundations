@@ -38,8 +38,8 @@ function game() {
     for (let i = 0; i < 5; i++) {
         userpick = prompt("Choose rock, paper or scissors: ");
         computerpick = computerPlay();
-        console.log(userpick);
-        console.log(computerpick);
+        console.log("User picks " + userpick);
+        console.log("Computer picks " + computerpick);
         console.log(playRound(userpick, computerpick));
     }
 }
